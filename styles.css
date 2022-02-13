@@ -90,3 +90,19 @@ body {
 #nav__checbox:checked ~ label.nav__toggle .menu {
     display: none;
 }
+
+/* Media Queries */
+@media only screen and (min-width: 560px){
+    .nav__toggle {
+        display: none;
+    }
+
+    .nav__menu{
+        flex-direction: row;
+    }
+
+    .nav__menu li {
+        display: block;
+    }
+}
+
